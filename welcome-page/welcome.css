@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.home-section {
+    height: 100vh;
+}
+body {
+    position: fixed;
+}
+
+.map {
+    width: 65%;
+    position: absolute;
+    left: -9%;
+    top: -8%;
+}
+
+.welcome{
+    position: relative;
+    width: 50%;
+}
+
+.home-section .header .welcome h1{
+    position: absolute;
+    left: 130%;
+    top: 25px;
+    font-family: 'Exo', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 46px;
+    
+}
+
+.home-section .header {
+    width: 100%;
+    position: relative;
+}
+
+.home-section .header .h2 {
+    position: absolute;
+    left: 62%;
+    top: 130px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paragraph {
+    width: 50%;
+    position: relative;
+    left: 49%;
+    top: 27%;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 39px;
+    color: black;
+    border-radius: 13px;
+    text-align: center;
+    padding: 10px;
+}
+
+.paragraph .text::selection{
+    color: brown;
+    background-color: bisque;
+}
+
+.button {
+    width: 50%;
+    position: absolute;
+    left: 66%;
+    bottom: 7%;
+}
+
+.button button {
+    cursor: pointer;
+    width: 36%;
+    height: 42px;
+    border: solid 2px #fff;
+    border-radius: 13px;
+    background-color: #6591ff;
+    font-weight: bold;
+    font-size: 19px;
+    color: #fff;
+}
+
+.button button:hover {
+    opacity: 0.8;
+}
+
+.photo {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    left: 5%;
+    top : 20%;
+    transition: 1s ease;
+
+
+
+}
+.photo #img{
+    border: 2px solid ;
+    border-radius: 50px;
+    color: #fff;
+    transform: scale(1.1);
+}

@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+span {
+    word-spacing: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+body {
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 34px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 17px;
+    padding-top: 6px;
+    background-color: #ddd;
+}
+
+
+.hotels {
+    padding-left: 20px;
+    margin-top: 23px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    transition: 3s ease;
+    
+}
+
+img {
+    margin-right: 17px;
+}
+
+.hotel {
+    display: flex;
+    flex-direction: row;
+    box-shadow: #eef  3px 4px 5px;
+    
+}
+
+.about-hotel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.hotel-name {
+    font-size: 20px;
+    color: teal;
+}
+
+.hotel-name i {
+    color: gold;
+}
+.hotel:hover{
+    transform: scale(1.1);
+}
+
+h4 {
+    font-size: 15px;
+    color: rgb(179, 7, 7);
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    font-style: italic;
+}
+
+.fits,
+.beds,
+.bath {
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.fits i {
+    color: rgb(179, 7, 7);
+    
+}
+
+.beds i {
+    color: rgb(179, 7, 7);
+}
+
+.bath i {
+    color: rgb(179, 7, 7);
+    
+}
+
+i {
+    color: rgb(179, 7, 7);
+}
+
+.price p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.price span {
+    font-size: 22px;
+    color: green;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+.features .palacon{
+    border: 2px solid teal;
+    border-radius: 6px;
+    padding-left: 4px;
+    padding-right: 4px ;
+    padding-top: 4px;
+}
+.features .air {
+    border: 2px solid teal;
+    border-radius: 6px;
+    padding-left: 4px;
+    padding-right: 4px ;
+    padding-top: 4px;
+}
+.features .pec{
+    border: 2px solid teal;
+    border-radius: 6px;
+    padding-left: 2px;
+    padding-right: 2px ;
+    padding-top: 4px;
+}
+.features .ref{
+    border: 2px solid teal;
+    border-radius: 6px;
+    padding-left: 4px;
+    padding-right: 4px ;
+    padding-top: 4px;
+}
+.features .TV{
+    border: 2px solid teal;
+    border-radius: 6px;
+    padding-left: 4px;
+    padding-right: 4px ;
+    padding-top: 4px;
+}
+.features .tea{
+    border: 2px solid teal;
+    border-radius: 6px;
+    padding-left: 4px;
+    padding-right: 4px ;
+    padding-top: 4px;
+   
+}
+a {
+    border: 2px solid;
+    padding: 5px;
+    text-decoration: none;   
+    background:teal;
+    color: white;
+    border-radius: 5px;
+    }  

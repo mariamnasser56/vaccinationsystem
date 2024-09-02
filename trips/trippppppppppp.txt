@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Travel Website</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="navbar">
+
+    <h1><span class="BB">B</span>OOKING</h1>
+  </div>
+
+  <div class="body">
+
+    <div class="tours">
+      <div class="places">
+
+        <img src="sarm-el-seyh-shaba-cami.jpg" style="width: 300px; height: 250px">
+        <div class="card-body">
+          <h3>SHARM-ELSHEIKH</h3>
+          <br>
+          <p>Sharm El-Sheikh is a popular beach resort town known for its crystal-clear waters, coral reefs, and
+            world-class diving and snorkeling.</p>
+          <br>
+          <h6>Price: <strong>$1000</strong></h6>
+          <br>
+          <button>
+            <a href="#book">Book Now</a>
+          </button>
+        </div>
+        <br>
+        <br>
+      </div>
+
+      <div class="places">
+
+        <img src="PYR.jpg" style="width: 300px; height: 250px; ">
+        <div class="card-body">
+          <h3>PYRAMIDS</h3>
+          <br>
+          <p>Giza: Home to the iconic Great Pyramids and the Sphinx, Giza is an ancient city located on the outskirts of
+            Cairo, Egypt..</p>
+          <br>
+          <h6>Price: <strong>$300</strong></h6>
+          <br>
+          <button>
+            <a href="#book">Book Now</a>
+          </button>
+        </div>
+        <br>
+        <br>
+
+      </div>
+
+
+      <div class="places">
+
+        <img src="aswan.jpg" style="width: 300px; height: 250px; ">
+        <div class="card-body">
+          <h3>ASWAN</h3>
+          <br>
+          <p>A city on the Nile River in southern Egypt, Aswan is known for its picturesque setting, ancient temples and
+            the towering Aswan High Dam.</p>
+          <br>
+          <h6>Price: <strong>$1200</strong></h6>
+          <br>
+          <button>
+            <a href="#book">Book Now</a> </button>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="places">
+
+        <img src="Marsa-Alam_1.jpg" style="width: 300px; height: 250px; ">
+        <div class="card-body">
+          <h3>MARSA-ALAM</h3>
+          <br>
+          <p>Marsa Alam is a quieter alternative to more bustling Egyptian resort towns, offering pristine beaches,
+            excellent diving opportunities, and a relaxed, laid-back atmosphere.</p>
+          <br>
+          <h6>Price: <strong>$1200</strong></h6>
+          <br>
+          <button>
+            <a href="#book">Book Now</a> </button>
+        </div>
+      </div>
+      <div class="places">
+
+        <img src="hur.jpg" style="width: 300px; height: 250px; ">
+        <div class="card-body">
+          <h3>HUGHRDAA</h3>
+          <br>
+          <p>Hurghada is known for its stunning beaches, lively nightlife, and numerous water sports activities,
+            including diving and windsurfing.</p>
+          <br>
+          <h6>Price: <strong>$1200</strong></h6>
+          <br>
+          <button>
+            <a href="#book">Book Now</a> </button>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="places">
+
+        <img src="640px-QaitbeyCitadel2.jpg" style="width: 300px; height: 250px; ">
+        <div class="card-body">
+          <h3>ALEXANDRIA</h3>
+          <br>
+          <p>Alexandria is a historic city located on the Mediterranean coast of Egypt, known for its ancient landmarks
+            and cultural significance.</p>
+          <br>
+          <h6>Price: <strong>$1200</strong></h6>
+          <br>
+          <button>
+            <a href="#book">Book Now</a> </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+Ain Sokhna is a resort town located on the western shore of the Red Sea in Egypt. It is a popular destination for tourists and locals alike, known for its beautiful beaches and crystal clear waters.
+
+
+[{"id":1,"name":"SHARM-ELSHEIKH","photo":"sarm-el-seyh-shaba-cami.jpg","details":"Sharm El-Sheikh is a popular beach resort town known for its crystal-clear waters, coral reefs, and             world-class diving and snorkeling.","price":"1000","linkhotels":"sharm.html"},
+{"id":2,"name":"PYRAMIDS","photo":"PYR.jpg","details":"Giza: Home to the iconic Great Pyramids and the Sphinx, Giza is an ancient city located on the outskirts of             Cairo, Egypt..","price":"300","linkhotels":"pyr.html"},
+{"id":3,"name":"ASWAN","photo":"aswan.jpg","details":"A city on the Nile River in southern Egypt, Aswan is known for its picturesque setting, ancient temples and             the towering Aswan High Dam.","price":"600","linkhotels":"aswan.html"},
+{"id":4,"name":"MARSA-ALAM","photo":"Marsa-Alam_1.jpg","details":"Marsa Alam is a quieter alternative to more bustling Egyptian resort towns, offering pristine beaches,             excellent diving opportunities, and a relaxed, laid-back atmosphere.","price":"1100","linkhotels":"marsa.html"},
+{"id":5,"name":"HUGHRDAA","photo":"hur.jpg","details":"Hurghada is known for its stunning beaches, lively nightlife, and numerous water sports activities,             including diving and windsurfing.","price":"1300","linkhotels":"hurghada.HTML"},
+{"id":6,"name":"ALEXANDRIA","photo":"640px-QaitbeyCitadel2.jpg","details":"Alexandria is a historic city located on the Mediterranean coast of Egypt, known for its ancient landmarks             and cultural significance.","price":"800","linkhotels":"alex.html"},
+{"id":7,"name":"CAIRO","photo":"Cairo, Egypt.jfif","details":"Cairo is the capital of Egypt. It is known for its rich history, ancient ruins, and bustling city life.","price":"400","linkhotels":"hotels.html"},
+{"id":8,"name":"DAHAB","photo":"dahab.jfif","details":"Dahab is a small city on the Red Sea. It is a popular destination for diving and water sports enthusiasts, as well as for those seeking a relaxing and peaceful holiday.","price":"700","linkhotels":"hotels.html"},
+{"id":9,"name":"AIN_SUKHNA","photo":"Ain Sukhna, Egypt.jfif","details":"Ain Sukhna is a resort town. It is a popular destination for tourists and locals alike, and is known for its beautiful beaches and crystal clear waters.","price":"1000","linkhotels":"hotels.html"}]

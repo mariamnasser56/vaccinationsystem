@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.container {
+    background: linear-gradient(to bottom, #FCF6F5FF, #2F3C7E);
+    padding: 0 150px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    background-color: #eee;
+    height: 55vh;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    border-radius: 55px;
+    box-shadow: 0px 12px 5px #00bfff;
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    width: 85%
+}
+
+.form-text {
+    height: 4vh;
+    position: absolute;
+    top: 25vh;
+}
+
+.form {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around
+}
+
+.form-text i {
+    font-size: 29px;
+    font-weight: bold;
+    color: #00bfff;
+}
+
+#peop {
+    width: 150px;
+    color: #00bfff;
+}
+
+.people {
+    padding-right: 41px;
+}
+
+.name {
+    padding-right: 3px;
+}
+
+.email {
+    padding-left: 10px;
+}
+
+.time {
+    padding-right: 29px;
+    padding-top: 12px;
+}
+
+.date {
+    padding-left: 20px
+}
+
+.phone {
+    padding-left: 89px;
+}
+
+.name input,
+.email input,
+.time input,
+.phone input,
+.date input {
+    height: 27px;
+    text-align: center;
+    color: #00bfff;
+}
+
+span,
+p {
+    color: #2F3C7E;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.submit {
+    height: 1%;
+}
+
+.submit input {
+    width: 145px;
+    height: 47px;
+    border-radius: 10px;
+    border: solid 1px white;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #00bfff;
+    cursor: pointer;
+}
+
+.submit input:hover {
+    opacity: 0.8;
+}

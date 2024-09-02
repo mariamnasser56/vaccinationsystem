@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background: url(wallpaperflare.com_wallpaper.jpg);
+    height: 100vh;
+}
+
+.form {
+    position: absolute;
+    left: 28%;
+    top: 18%;
+}
+
+.form .form-content {
+    width: 672px;
+    height: 417px;
+    border-radius: 65px;
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 65px 40px 40px;
+}
+
+.first,
+.last,
+.email,
+.pass,
+.passc,
+.phone {
+    width: 1px;
+}
+
+.first label,
+.last label,
+.email label,
+.pass label,
+.passc label,
+.phone label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FBF8BE;
+}
+
+.first input,
+.last input,
+.email input,
+.pass input,
+.passc input,
+.phone input {
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    height: 35px;
+    border: solid 3px #00008b;
+}
+
+
+.first {
+    position: absolute;
+    top: 5%;
+}
+
+.last {
+    position: absolute;
+    top: 5%;
+    left: 54%;
+}
+
+.email {
+    position: absolute;
+    top: 35%;
+}
+
+.pass {
+    position: absolute;
+    top: 59%;
+}
+
+.passc {
+    position: absolute;
+    left: 54%;
+    top: 52%;
+}
+
+.phone {
+    position: absolute;
+    top: 28%;
+    left: 54%;
+}
+
+.gender {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    color: #FBF8BE;
+}
+
+.gender input,
+.gender label
+{
+    cursor: pointer;
+}
+
+.submit {
+    position: absolute;
+    top: 90%;
+    left: 37%;
+}
+
+.submit input {
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to left, #FBF8BE, #00008b);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
